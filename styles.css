@@ -1,0 +1,581 @@
+body
+{
+  height:3000px;
+  color:white;
+  font-family:arial;
+  background-repeat: no-repeat;
+  margin:0 0 0 0;
+}
+.page1{
+  background-image: linear-gradient(to top, rgba(3, 3, 3, 0.74) 0, rgba(0, 0, 0, 0.459) 60%, rgba(0, 0, 0, 0.884) 100%) ,url(IN-en-20240708-POP_SIGNUP_TWO_WEEKS-perspective_WEB_34324b52-d094-482b-8c2a-708dc64c9065_medium.jpg);
+  height:650px;
+  
+}
+.heading{
+  display:flex;
+  justify-content: space-between;
+  padding-top:26px;
+  margin-left:145px;
+  margin-right:145px;
+}
+.netflix-logo{
+  height:40px;
+  
+}
+.language{
+  outline:none;
+  width:125px;
+  height:30px;
+  background-color: transparent;
+  color:white;
+  text-align:center;
+  font-size:15px;
+  padding-left:20px;
+  border-radius :4px;
+  padding-top:2px;
+  padding-bottom:3px;
+  outline-color: white;
+  text-align: center;
+  margin-right:5px;
+}
+
+
+.language option{
+  color:black;
+}
+.sign-in{
+ width:76px;
+ background-color:rgb(214, 11, 11);
+ height:30px;
+ border:none;
+ border-radius:4px;
+ color:white;
+ font-weight:400;
+ font-size:15px;
+ padding-bottom:3px;
+ text-align:center;
+ cursor:pointer;
+}
+.sign-in:hover{
+  background-color:rgba(212, 26, 26, 0.932);
+}
+.email-button:hover{
+  background-color:rgba(160, 54, 54, 0.932);
+}
+
+.description{
+  text-align: center;
+  margin-top:200px;
+  
+ 
+  
+}.gmail{
+  text-align: center;
+  margin-bottom:30px;
+}
+.movies h1{
+  font-size:40px;
+  font-weight:800;
+  letter-spacing:1px;
+  margin-bottom:12px;
+}
+.movies p{
+  font-size:24px;
+  margin-top:0px;
+}
+.email p,.gmail p{
+   font-size:20px;
+   margin-top:40px;
+   text-align:center;
+}
+.email input,.gmail input{
+  height:50px;
+  width:350px;
+  padding-left:9px;
+  background-color:rgba(0, 0, 0, 0.5);
+  color: rgb(240, 240, 240);
+  border-radius: 3px;
+  border-color:rgb(228, 224, 224);
+  border-style:solid;
+  border-width:1px;
+  margin-right:4px;
+  align-content: center;
+  
+}
+.placeholder{
+  font-size:18px;
+  color:white;
+}
+.email button,.gmail button{
+ height:55px;
+ width:200px;
+ background-color:rgb(214, 11, 11);
+ border:none;
+ font-size:20px;
+ color:white;
+ font-weight:600;
+ cursor: pointer;
+ vertical-align: top;
+ border-radius:3px;
+ text-align: center;
+
+}
+.email button img,.gmail button img{
+  width:20px;
+  align-items: center;
+  margin-left:8px;
+  
+}
+.divider
+{
+  display:flex;
+  background-color: rgb(61, 57, 57);
+  height:10px;
+   
+  
+}
+
+.page2,.page3,.page4,.page5,.page6{
+  background-color: black;
+  display:flex;
+  height:500px;
+  align-items: center;
+}
+
+.tv-img img,.device-pile img,.cartoon img{
+  width:550px;
+  
+  
+}
+.text {
+  margin-left:200px;
+  padding-top:110px;
+  padding-bottom:140px;
+}
+.tv-img,.device-pile{
+  margin-right:200px;
+  padding-top:100px;
+  padding-bottom:140px;
+  padding-left:50px;
+  position:relative;
+  z-index:1;
+}
+.text h1,.text1 h1{
+  margin-top:0;
+  font-size:40px;
+  font-weight:800;
+  margin-bottom:15px;
+}
+.text p,.text1 p{
+  font-size:25px;
+  width:450px;
+  margin-top:0;
+
+}
+.video1{
+  position:absolute;
+  top:782px;
+   bottom:360px; 
+   left:765px;
+   overflow:hidden;
+ }
+ .mobile img{
+  width: 500px;
+  display:relative;
+}
+.mobile,.cartoon{
+  margin-left:150px;
+  align-items: center;
+}
+.boxshot{
+  position:absolute;
+  display: flex;
+  width:250px;
+  border:2px;
+  border-style: solid;
+  border-color: rgba(49, 48, 48, 0.822);
+  border-radius: 10px;
+  padding-top: 5px;
+  padding-bottom:5px;
+  padding-left: 10px;
+  top: 1485px;
+  background-color: black;
+  left:266px;
+ 
+
+
+} 
+.boxshot img{
+  width:50px;
+  margin-right:14px;
+  margin-top:5px;
+  
+}
+.Stranger{
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom:0;
+  margin-top:20px;
+}
+.Downloading{
+  font-size:14px;
+  margin-top:3px;
+  text-align:left;
+  color:rgba(24, 80, 233, 0.938);
+}
+  .text1{
+   margin-right:200px;
+   width:370px;
+   margin-left:40px;
+   align-items: center;
+  }
+    .vide0-container2{
+      position: relative;
+      width:80%;
+      
+    }
+  .video2{
+    position:absolute;
+    right:330px;
+    top:1740px;
+    width:400px;
+    height:200px;
+    align-items: center;
+    overflow: hidden;
+  }
+  .FAQ{
+  background-color: black;
+  height:auto;
+  align-items: center;
+  }
+  .topic h1{
+    font-size:40px;
+    font-weight:800;
+    margin-top:0;
+    padding-top:60px;
+    text-align: center;
+  }
+  .box{
+    display:flex;
+    flex-direction: column;
+    margin-left:200px;
+    margin-right:200px;
+   
+  }
+  
+  .accordion{
+    background-color: rgb(61, 57, 57);
+    color:white;
+    cursor: pointer;
+    font-size:24px;
+    text-align:left;
+    border:none;
+    outline:none;
+    transition:0.4s;
+    height:70px;
+    padding:20px;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:5px;
+    align-items: center;
+    
+  }
+  .active,.accordion:hover{
+    background-color:rgb(105, 102, 102);
+  }
+  .panel{
+    padding:0 18px; 
+    background-color: rgb(61, 57, 57);
+    display:none;
+    overflow: hidden;
+    transition:max-height 0.2s ease-out
+    
+
+  }
+  .panel p{
+    font-size:24px;
+  }
+
+  .footer {
+    padding:50px ;
+    border-top: 6px solid #333;
+    color: #777;
+    background-color:black;
+    
+}
+
+.footer h2 {
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 30px;
+
+}
+
+
+.footer .col {
+    flex-basis: 25%;
+    flex-grow: 1;
+    margin-bottom: 20px;
+    
+}
+
+.footer .col a {
+    display: block;
+    color: #777;
+    font-size: 14px;
+    margin-bottom: 10px;
+
+}
+
+.footer .row {
+    align-items: flex-start;
+    padding: 10px 0;
+    display:flex;
+    flex-direction: row;
+}
+
+.footer .language-btn {
+    color: white;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+.copyright-text {
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Media Querries for small Design */
+
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 100px;
+    }
+
+    nav button {
+        padding: 5px 10px;
+
+    }
+
+    nav .language-btn {
+        padding: 4px 8px;
+    }
+
+    .header-content {
+        position: unset;
+        transform: none;
+        padding-top: 150px;
+    }
+
+    .header-content h1 {
+        font-size: 30px;
+    }
+
+    .email-signup button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .text-col,
+    .img-col {
+        flex-basis: 100%;
+    }
+
+    .features h2 {
+        font-size: 30px;
+    }
+
+    .features p {
+        font-size: 15px;
+    }
+
+    .row:nth-child(2),
+    .row:nth-child(4) {
+        flex-direction: column-reverse;
+    }
+
+    .features .row {
+        padding: 10px 0;
+    }
+
+    .faq h2 {
+        font-size: 20px;
+    }
+
+    .accordian .content {
+        font-size: 14px;
+    }
+
+    .accordian li label {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+    label::after {
+        font-size: 22px;
+
+    }
+
+
+}
+
+@media only screen and (max-width:958px){
+  .netflix-logo{
+    height: 25px;
+  }
+  .heading{
+    margin-left:27px;
+    margin-right:27px;
+    align-items: center;
+  }
+  .email p{
+   
+    margin-top:30px;
+  }
+  .description{
+    margin-top:110px;
+    padding-left:30px;
+    padding-right:30px;
+  }
+  .page1{
+    height: 550px;
+  }
+  
+  .page2,.page3,.page4,.page5,.page6{
+    background-color: black;
+    display:flex;
+    height:780px;
+    align-items: center;
+    flex-direction: column;
+  }
+   .text {
+    text-align: center;
+    margin-left:0px;
+    padding-top:80px;
+    padding-bottom: 0px;
+    width:unset;
+    margin-right:unset;
+    padding-left:30px;
+    padding-right:30px;
+   }
+  
+
+
+   .text1{
+    text-align: center;
+    margin-left:0px;
+    position:relative;
+    top:-420px;
+    padding-bottom: 0px;
+    width:unset;
+    margin-right:unset;
+    padding-left:30px;
+    padding-right:30px;
+   }
+   .text h1,.text1 h1,.movies h1,.topic h1{
+    font-size:35px;
+   }
+   .text p,.text1 p,.movies p,.email p ,.accordion{
+    font-size:20px;
+    text-align:center;
+    width:unset;
+   }
+   .panel p{
+    font-size:20px;
+   }
+   .tv-img,.device-pile{
+    margin-left:unset;
+    padding:unset;
+    margin-right:unset;
+    
+   }
+   .mobile,.cartoon{
+    position:relative;
+    margin-left:unset;
+    padding:unset;
+    margin-right:unset;
+    top:200px;
+   }
+   .boxshot{
+    top:1910px;
+    width:400px;
+    left:185px;
+   }
+   .Stranger {
+    font-size: 18px;
+   
+}
+.Downloading {
+  font-size: 16px;
+  
+}
+   .tv-img img,.device-pile img,.mobile img,.cartoon img{
+    width:100%;
+   }
+   .video1{
+    width:510px;
+    top:870px;
+    left:130px;
+    align-content: center;
+   }
+   .video2{
+    right:unset;
+    top:2410px;
+    width:400px;
+    height:unset;
+    right:170px;
+   }
+   .box{
+    margin-left:30px;
+    margin-right:30px;
+   }
+  
+  }
+@media only screen and (max-width:600px){
+  .language{
+    width:40px;
+  }
+  .email button,.gmail button{
+    margin-top:14px;
+    
+  }
+ 
+ .text1{
+  margin:90px;
+ }
+ .mobile,.cartoon{
+    top:300px;
+ }
+ .boxshot{
+  top:1960px;
+  width:325px;
+  height:55px;
+  left:105px;
+ }
+ .boxshot img{
+  width:38px;
+  margin-top:unset;
+ }
+ .Stranger{
+  font-size:15px;
+  margin-top:10px;
+ }
+ .Downloading{
+  font-size:13px;
+ }
+ .video2{
+  left:100px;
+  width:340px;
+  
+ }
+ .video1{
+  width:400px;
+  left:70px;
+ }
+ 
+  
+ 
+}
+  
+  
